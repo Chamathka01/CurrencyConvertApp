@@ -6,4 +6,7 @@ export default function CurrencyConverter() {
     const [currencyType, setCurrencyType] = useState("USDtoLKR");
     const [showSelection, setShowSelection] = useState(false);
 
-}
+    const exchangeRates = {
+        USD: 1,
+        LKR: 294.5,
+};
